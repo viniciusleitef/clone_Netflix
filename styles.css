@@ -3,3 +3,127 @@
     padding: 0;
     font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
 }
+
+body{
+    background-color: black;
+}
+
+.imagem_fundo{
+    width: 100%;
+    height: 99.8vh;
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+.shadow{
+    width: 100%;
+    height: 100%;   
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+header{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    justify-content:space-between;
+}
+
+.logo{
+    display: flex;
+    width: 300px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    display: block;
+    width: 180px;
+}
+
+.menu{
+    display: flex;
+    width: 300px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.menu select{
+    width: 120px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid white;
+    margin-right: 15px;
+    background-color: transparent;
+    color: white;
+    font-size: 15px;    
+}
+
+.menu button{
+    width: 80px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 15px;
+    background-color: red;
+    color: white;
+    font-size: 16px;
+}
+
+.texto{
+    display: block;
+    max-width: 950px;
+    padding-top: 160px;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.texto h1{
+    font-size: 60px;
+}
+
+.texto h2{
+    font-size: 24px;
+    margin: 15px 0;
+}
+
+.texto h3{
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.enviar-email{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+#email{
+    width: 500px;
+    height: 70px;
+    padding: 0 10px;
+    font-size: 18px;
+}
+
+.enviar{
+    width: 200px;
+    height: 74px;
+    background-color: red;
+    color: white;
+    font-size: 30px;
+    border: none;
+    border-radius: 2px;
+    margin-left: 1px;
+}
+
+.divider{
+    width: 100%;
+    height: 10px;
+    background-color: rgba(128, 128, 128, 0.300);
+}
