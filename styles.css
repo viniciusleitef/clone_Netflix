@@ -52,10 +52,10 @@ header{
     
 }
 
-.menu select{
+.languages{
     width: 120px;
     height: 35px;
-    border-radius: 5px;
+    border-radius: 2px;
     border: 1px solid white;
     margin-right: 15px;
     background-color: transparent;
@@ -72,6 +72,7 @@ header{
     background-color: red;
     color: white;
     font-size: 16px;
+    cursor: pointer;
 }
 
 .texto{
@@ -114,12 +115,17 @@ header{
 .enviar{
     width: 200px;
     height: 74px;
-    background-color: red;
+    background-color: rgb(212, 0, 0);
     color: white;
     font-size: 30px;
     border: none;
     border-radius: 2px;
     margin-left: 1px;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background-color: red;
 }
 
 .divider{
@@ -210,8 +216,64 @@ header{
     color: white;
 }
 
-
 .mais{
     font-size: 50px;
 }
 
+footer{
+    width: 45%;
+    height: 380px;
+    margin: 0 auto;
+    text-align: left;
+    color: #737373;
+}
+
+footer h2{
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.bloco_colunas{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.colunas{
+    width: 700px;
+    font-size: 12.5px;
+}
+
+.colunas ul{
+    list-style: none;
+}
+
+.colunas ul li{
+    padding: 8px 0;
+}
+
+
+.colunas a{
+    text-decoration: none;
+    color: #737373;
+}
+
+.colunas a:hover{
+    border-bottom: 1px solid #737373;
+}
+
+.languages2{
+    width: 125px;
+    height: 50px;
+    background-color: transparent;
+    color: #737373;
+    border: 1px solid #737373;
+    border-radius: 2px;
+    padding-left: 20px;
+    font-size: 16px;
+}
+
+footer p{
+    margin-top: 20px;
+    font-size: 13px;
+}
